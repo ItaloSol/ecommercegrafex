@@ -7,3 +7,11 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 
+<style>
+.body{
+  font-family: 'Inter', sans-serif;
+  max-width: 1440px;
+  height: auto; /* Alterei para auto para permitir altura flexível */
+  margin: 0 auto; /* Centraliza a página */
+}
+</style>

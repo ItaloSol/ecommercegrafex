@@ -1,51 +1,190 @@
 <template>
- <!-- MENU TOPO -->
-      <div class=" bg-blue-600 text-white col-span-3 text-sm pl-2 pr-4 py-2 pb-2 border-b border-b-blue-300">
-        <div class="flex justify-between">
-          <router-link to="/"><div>GRÁFICA DO EXÉRCITO</div></router-link>
-
-          <ul class="flex items-center">
-           <router-link to="Login"> <li class="pr-2"><p class="hover:underline cursor-pointer">ENTRAR NA CONTA</p></li></router-link>
-            <li class="pr-2">
-              <p class="hover:underline cursor-pointer">CRIAR CONTA</p>
-            </li>
-            <li class="w-7">
-              <svg
-                class="pr-2"
-                data-slot="icon"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <path
-                  d="M3 4a2 2 0 0 0-2 2v1.161l8.441 4.221a1.25 1.25 0 0 0 1.118 0L19 7.162V6a2 2 0 0 0-2-2H3Z"
-                ></path>
-                <path
-                  d="m19 8.839-7.77 3.885a2.75 2.75 0 0 1-2.46 0L1 8.839V14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.839Z"
-                ></path>
-              </svg>
-            </li>
-            <li class="pr-2 hover:underline cursor-pointer">divcmcl@graficadoexercito.eb.mil.br</li>
-            <li class="w-7">
-              <svg
-                class="pr-2"
-                data-slot="icon"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <path
-                  clip-rule="evenodd"
-                  fill-rule="evenodd"
-                  d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z"
-                ></path>
-              </svg>
-            </li>
-            <li class="hover:underline cursor-pointer">3415-5815</li>
-          </ul>
+  <div>
+    <header class="header flex items-center justify-between p-4">
+      <div class="flex items-center space-x-4">
+        <div class="contact-info flex items-center">
+          <i class=" fas fa-phone-alt"></i> Contato (61) 3415-5815
+        </div>
+        <div class=" searchnav-links contact-info">
+          <a href="#" class="text-blue-500">Venda para Organização Militar</a>
         </div>
       </div>
-      <!-- menu topo -->
+      <div class="flex items-center">
+        <input type="text" class="search-bar" placeholder="Busque por um produto...">
+        <button class="search-button ml-2">Buscar</button>
+      </div>
+      <div class="nav-links flex items-center">
+        <a href="#">Ajuda</a>
+        <router-link to="/Login">Minha conta</router-link>
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+    </header>
+    <nav class="bg-gray-100 p-2">
+      <div class="flex justify-center space-x-4 nav-links">
+        <div class="dropdown">
+          <a href="#" class="text-gray-700">Todos os produtos</a>
+          <div class="dropdown-content">
+            <a href="#">Produto 1</a>
+            <a href="#">Produto 2</a>
+            <a href="#">Produto 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="text-gray-700">Lançamentos</a>
+          <div class="dropdown-content">
+            <a href="#">Lançamento 1</a>
+            <a href="#">Lançamento 2</a>
+            <a href="#">Lançamento 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="text-gray-700">Cartão e Papelaria</a>
+          <div class="dropdown-content">
+            <a href="#">Cartão 1</a>
+            <a href="#">Cartão 2</a>
+            <a href="#">Cartão 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="text-gray-700">Adesivos e Rótulos</a>
+          <div class="dropdown-content">
+            <a href="#">Adesivo 1</a>
+            <a href="#">Adesivo 2</a>
+            <a href="#">Adesivo 3</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="main-banner">
+      <h1>Vem com a GRAFex descomplicar seu</h1>
+      <h2>2025</h2>
+      <a href="#" class="cta-button">Planeje-se</a>
+    </div>
+    </div>
 </template>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    .header {
+      background-color: #fff;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .header .search-bar {
+      border: 1px solid #e5e7eb;
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+      width: 300px;
+    }
+    .header .search-button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+    }
+    .header .nav-links a {
+      color: #333;
+      margin: 0 0.5rem;
+    }
+    .header .contact-info {
+      font-size: 0.875rem;
+      color: #333;
+    }
+    .header .contact-info i {
+      margin-right: 0.25rem;
+    }
+   .main-banner {    
+    position: relative; /* Necessário para usar o ::before */
+    background-color: #00aaff;
+    background-image: url('http://www.graficadoexercito.eb.mil.br/images/e-commerce/faixa-7.png');
+    background-size: cover; /* Redimensiona a imagem para cobrir o banner */
+    background-position: center; /* Centraliza a imagem */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    height: 300px; /* Ajuste conforme necessário */
+    overflow: hidden; /* Para garantir que o ::before não saia do container */
+}
+
+.main-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.5); /* Camada azul com opacidade */
+    z-index: 0,1; /* Coloca a camada acima da imagem */
+}
+
+.main-banner * {
+    position: relative;
+    z-index: 0,2; /* Garante que o texto e outros elementos estejam acima da camada */
+}
+    .main-banner h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .main-banner h2 {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+    .main-banner .cta-button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.25rem;
+      margin-top: 1rem;
+      display: inline-block;
+    }
+    .nav-links a {
+      position: relative;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      transition: color 0.3s;
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #007bff;
+      bottom: 0;
+      left: 0;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+      transition: transform 0.3s ease-out;
+    }
+    .nav-links a:hover {
+      color: #007bff;
+    }
+    .nav-links a:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>

@@ -27,6 +27,6 @@
 </template>
 
 <script setup>
-import MENUTOPO from '../components/MenuTopo.vue'
-import MENU from '../components/MenuGeral.vue'
+import MENUTOPO from '../../components/reciclado/MenuTopo.vue'
+import MENU from '../../components/reciclado/MenuGeral.vue'
 </script>

@@ -10,7 +10,7 @@
      <MENUTOPO></MENUTOPO>
       <MENU></MENU>
     </header>
-    <body>
+    <body id="body">
       <div class="mx-auto divide-y ">
         <BannerGrafica></BannerGrafica>
         <!-- CATALOGO PRODUTOS -->
@@ -124,23 +124,20 @@
         <!-- <div class="bg-gray-600 text-white py-44 pl-4 pr-4">5</div>
         <div class="bg-white py-44 pl-4 pr-4">6</div> -->
         <!-- RODA PE INFORMAÇÕES FINAIS -->
-    <RodaPe></RodaPe>
+ 
         <!-- roda pe informações finais -->
-        <!-- RODA PE -->
-        <div class="bg-blue-300 text-white text-center text-sm font-semibold py-2">
-          <div>
-            © 2024 Gráfica do Exército, Todos os direitos reservados. <br />
-            Desenvolvido por Sd Dantas.
-          </div>
-        </div>
-        <!-- roda pe -->
+     
       </div>
     </body>
+       <!-- RODA PE -->
+          <RodaPe></RodaPe>
+        
+        <!-- roda pe -->
   </html>
 </template>
 <script setup>
-import BannerGrafica from '../components/BannerInicial.vue'
-import MENUTOPO from '../components/MenuTopo.vue'
-import MENU from '../components/MenuGeral.vue'
-import RodaPe from '../components/RodaPe.vue';
+import BannerGrafica from '../../components/BannerInicial.vue'
+import MENUTOPO from '../../components/MenuTopo.vue'
+import MENU from '../../components/MenuGeral.vue'
+import RodaPe from '../../components/RodaPe.vue';
 </script>

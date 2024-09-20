@@ -68,6 +68,6 @@
   
 </template>
 <script setup>
-import MenuTopo from '../components/MenuTopo.vue'
+import MenuTopo from '../../components/MenuTopo.vue'
 
 </script>

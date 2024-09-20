@@ -1,10 +1,10 @@
 <template>
    <!-- RODA PE INFORMAÇÕES FINAIS -->
-        <div class="bg-blue-300 text-white py-6">
+        <div style="background: #00aaff;" class="text-white py-6">
           
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
            
-            <div class="flex grow  flex-col items-center md:text-right">
+            <div class="flex grow  flex-col lg:items-right  md:text-right sm:items-center  items-center">
             
               <ul>
                  <li class="font-bold text-2xl mb-2">Localização</li>
@@ -18,10 +18,12 @@
             </div>
              <div class="flex grow-0 flex-col items-center md:text-right">
                <img
-                class="pb-6 mr-28"
+                class=""
                 src="http://www.graficadoexercito.eb.mil.br/images/GrafexLogo.png"
                 alt="Grafex Logo"
               />
+           <p class="text-center"> © 2024 Gráfica do Exército, Todos os direitos reservados. <br />
+            Desenvolvido por Sd Dantas.</p>
              </div>
             <div class="flex grow  flex-col justify-center items-center md:items-start">
               <ul>
