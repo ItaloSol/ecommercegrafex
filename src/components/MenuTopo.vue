@@ -23,7 +23,7 @@
         <a href="#"><i class="fas fa-shopping-cart"></i></a>
       </div>
     </header>
-    <nav class="bg-gray-100 p-2">
+    <nav class="bg-gray-200 p-2">
       <div class="flex justify-center space-x-4 nav-links">
         <div class="dropdown">
           <a href="#" class="text-gray-700">Todos os produtos</a>

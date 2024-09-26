@@ -1,7 +1,7 @@
 <template>
- <div class="body">
+ <div class="body p-6">
     <div class=" grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-white p-6 rounded-lg shadow-md">
+      <div class="hover:cursor-pointer  bg-white p-6 rounded-lg shadow-md"> <router-link to="Produto">
         <img
           src="https://placehold.co/300x300"
           alt="8 different colored t-shirts"
@@ -14,6 +14,7 @@
         </p>
         <p class="text-gray-900 font-semibold">8 colors</p>
         <p class="text-gray-900 font-semibold">$256</p>
+        </router-link>
       </div>
       <div class="bg-white p-6 rounded-lg shadow-md">
         <img src="https://placehold.co/300x300" alt="Black t-shirt" class="w-full mb-4" />

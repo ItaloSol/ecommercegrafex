@@ -3,6 +3,7 @@ import LoginPage from '../views/LoginPage.vue'
 import CadastroLogin from '../views/CadastroLogin.vue'
 import HomePage from '../views/HomePage.vue'
 import LojaPage from '../views/LojaPage.vue'
+import Produto from '../views/ProdutoPage.vue'
 // import ComponenteView from '../views/ComponentesView.vue'
 // import GridPage from '../views/GridPage.vue'
 // import GridLoja from '../views/GridLoja.vue'
@@ -35,6 +36,11 @@ const router = createRouter({
       path: '/Page',
       name: 'Page',
       component: LojaPage
+    },
+    {
+      path: '/Produto',
+      name: 'Produto',
+      component: Produto
     },
   
     // {

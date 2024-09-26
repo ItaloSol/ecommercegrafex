@@ -19,8 +19,6 @@
           <div class="w-full mb-4 h-48 bg-gray-200 flex items-center justify-center">
             <img
               v-if="banner.image"
-              :src="banner.image"
-              :alt="banner.title"
               class="w-full h-full object-cover rounded"
             />
             <span v-else class="text-gray-500">
@@ -49,31 +47,26 @@ const banners = ref([
     title: 'Flyer',
     price: 'R$ 68,21/50 un',
     dimensions: '200x200',
-    image: 'caminho/para/imagem-flyer.jpg' // Substitua pelo caminho da imagem real ou remova se não houver imagem
   },
   {
     title: 'Adesivo',
     price: 'R$ 26,09/100 un',
     dimensions: '200x200',
-    image: 'caminho/para/imagem-adesivo.jpg'
   },
   {
     title: 'Folder 2 Dobras',
     price: 'R$ 65,90/50 un',
     dimensions: '200x200',
-    image: 'caminho/para/imagem-folder.jpg'
   },
   {
     title: 'Livro Personalizado',
     price: 'R$ 235,07/10 un',
     dimensions: '200x200',
-    image: 'caminho/para/imagem-livro.jpg'
   },
   {
     title: 'Livro Personalizado',
     price: 'R$ 235,07/10 un',
     dimensions: '200x200',
-    image: 'caminho/para/imagem-livro.jpg'
   }
   // Adicione mais banners conforme necessário
 ])
