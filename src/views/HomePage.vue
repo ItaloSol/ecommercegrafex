@@ -1,9 +1,11 @@
 <template>
+  <div>
   <MenuTopo></MenuTopo>
 
   <GridLojaHome></GridLojaHome>
 
   <RodaPe></RodaPe>
+  </div>
 </template>
 
 <script setup>
