@@ -5,6 +5,7 @@ import HomePage from '../views/HomePage.vue'
 import LojaPage from '../views/LojaPage.vue'
 import Produto from '../views/ProdutoPage.vue'
 import Carrinho from '../views/CarrinhoPage.vue'
+import AcompanhamentoView from '../views/AcompanhamentoPage.vue'
 // import GridPage from '../views/GridPage.vue'
 // import GridLoja from '../views/GridLoja.vue'
 // import GridTeste1 from '../views/Teste.vue'
@@ -41,6 +42,11 @@ const router = createRouter({
       path: '/Produto',
       name: 'Produto',
       component: Produto
+    },
+    {
+      path: '/Acompanhamento',
+      name: 'Acompanhamento',
+      component: AcompanhamentoView
     },
   
     // {

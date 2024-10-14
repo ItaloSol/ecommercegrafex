@@ -18,7 +18,7 @@
         <button class="search-button ml-2">Buscar</button>
       </div>
       <div class="nav-links flex items-center">
-        <a href="#">Ajuda</a>
+        <router-link to="Acompanhamento">Meus Pedidos</router-link>
         <router-link to="/Login">Minha conta</router-link>
         <router-link to="Carrinho"><i class="fas fa-shopping-cart"></i></router-link>
       </div>
