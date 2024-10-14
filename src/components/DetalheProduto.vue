@@ -13,7 +13,7 @@
           <a href="#" class="text-blue-600 font-semibold">Fazer Bloco de Notas personalizado</a>
         </div>
         <div class="mb-4">
-          <p>Na 360imprimir, criar e comprar Bloco de Anotações personalizado é muito simples e prático.</p>
+          <p>Criar e comprar Bloco de Anotações personalizado é muito simples e prático.</p>
           <p>Saiba como fazer Bloco de Notas seguindo estes passos:</p>
           <ol class="list-decimal list-inside">
             <li>Selecionar as características do Bloco de Notas – desde a quantidade ao extra que deseja.</li>
@@ -25,7 +25,7 @@
                 <li>Opção D - Réplica de design – se pretende optar por um design que não está em formato digital, basta enviar uma fotografia e as nossas designers replicam a arte final para que possa ser impressa.</li>
               </ul>
             </li>
-            <li>Fazer login na sua conta cliente. Se ainda não possuir registro, pode fazê-lo no site da 360imprimir</li>
+            <li>Fazer login na sua conta cliente. Se ainda não possuir registro, pode fazê-lo no site da</li>
             <li>Finalizar a encomenda, indicando os dados de pagamento e o endereço de entrega.</li>
             <li>Efetuar o pagamento.</li>
           </ol>

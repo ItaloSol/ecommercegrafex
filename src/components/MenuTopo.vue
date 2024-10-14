@@ -20,7 +20,7 @@
       <div class="nav-links flex items-center">
         <a href="#">Ajuda</a>
         <router-link to="/Login">Minha conta</router-link>
-        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        <router-link to="Carrinho"><i class="fas fa-shopping-cart"></i></router-link>
       </div>
     </header>
     <nav class="bg-gray-200 p-2">

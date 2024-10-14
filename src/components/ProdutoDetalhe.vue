@@ -68,9 +68,9 @@
        R$52,18
       </span>
      </div>
-     <button class="bg-orange-500 text-white w-full py-3 rounded">
+     <router-link to="Carrinho"><button class="bg-orange-500 text-white w-full py-3 rounded">
       INICIAR COMPRA
-     </button>
+     </button></router-link>
      <div class="flex items-center mt-4 text-gray-600">
       <i class="fas fa-money-bill-wave mr-2">
       </i>
