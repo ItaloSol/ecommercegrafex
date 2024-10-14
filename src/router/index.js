@@ -4,7 +4,7 @@ import CadastroLogin from '../views/CadastroLogin.vue'
 import HomePage from '../views/HomePage.vue'
 import LojaPage from '../views/LojaPage.vue'
 import Produto from '../views/ProdutoPage.vue'
-// import ComponenteView from '../views/ComponentesView.vue'
+import Carrinho from '../views/CarrinhoPage.vue'
 // import GridPage from '../views/GridPage.vue'
 // import GridLoja from '../views/GridLoja.vue'
 // import GridTeste1 from '../views/Teste.vue'
@@ -22,11 +22,11 @@ const router = createRouter({
       name: 'Cadastro',
       component: CadastroLogin
     },
-    // {
-    //   path: '/Componentes',
-    //   name: 'Componentes',
-    //   component: ComponenteView
-    // },
+    {
+      path: '/Carrinho',
+      name: 'Carrinho',
+      component: Carrinho
+    },
     {
       path: '/',
       name: 'Inicio',
