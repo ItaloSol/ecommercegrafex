@@ -1,41 +1,22 @@
-# e-commerce
+# Portfólio Digital da Gráfica do Exército (Grafex)
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto foi desenvolvido para modernizar a presença online da Gráfica do Exército, apresentando seus serviços de forma clara, profissional e acessível. Criado com foco na performance, responsividade e acessibilidade, o site oferece uma experiência fluida para todos os visitantes.
 
-## Recommended IDE Setup
+## 🔧 Tecnologias Utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Front-end**: JavaScript (ES6), Vue.js, Tailwind CSS, Bootstrap 4, HTML5, CSS3
+- **APIs REST**: para integração eficiente de dados
 
-## Customize configuration
+## 💡 Funcionalidades e Contribuições
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Interface responsiva e intuitiva
+- Integração entre Vue.js e APIs REST para uma navegação fluida
+- Otimização para mecanismos de busca (SEO)
 
-## Project Setup
+## 🔗 Acesse o projeto online:
 
-```sh
-npm install
-```
+➡️ [grafex.eb.mil.br/portifolio](https://www.grafex.eb.mil.br/portifolio/)
 
-### Compile and Hot-Reload for Development
+## 📈 Resultado
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Um site dinâmico, com estrutura bem definida, que eleva a imagem institucional da gráfica e facilita o contato com novos clientes.
